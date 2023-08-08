@@ -935,6 +935,286 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 5em;
 				}
+		
+		@media screen and (max-width: 2000px) {
+
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 300vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+			}
+
+			.contenidoPhone{
+				margin-left: 35%;
+				background: none;
+				z-index: 55;
+				position: relative;
+				margin-right: 35%;
+				margin-top: 0%;
+			}
+
+			.contentThree	{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 200vh !important;
+			}
+
+			.contentFour	{
+				position: relative !important;
+				width: 50%;
+				float: left;
+				height: 200vh !important;
+			}
+
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+				box-sizing: border-box;
+				align-items: stretch;
+			}
+
+				.row > * {
+					box-sizing: border-box;
+				}
+
+				.row.gtr-uniform > * > :last-child {
+					margin-bottom: 0;
+				}
+
+				.row.aln-left {
+					justify-content: flex-start;
+				}
+
+				.row.aln-center {
+					justify-content: center;
+				}
+
+				.row.aln-right {
+					justify-content: flex-end;
+				}
+
+				.row.aln-top {
+					align-items: flex-start;
+				}
+
+				.row.aln-middle {
+					align-items: center;
+				}
+
+				.row.aln-bottom {
+					align-items: flex-end;
+				}
+
+				.row > .imp-xlarge {
+					order: -1;
+				}
+
+				.row > .col-1-xlarge {
+					width: 8.33333%;
+				}
+
+				.row > .off-1-xlarge {
+					margin-left: 8.33333%;
+				}
+
+				.row > .col-2-xlarge {
+					width: 16.66667%;
+				}
+
+				.row > .off-2-xlarge {
+					margin-left: 16.66667%;
+				}
+
+				.row > .col-3-xlarge {
+					width: 25%;
+				}
+
+				.row > .off-3-xlarge {
+					margin-left: 25%;
+				}
+
+				.row > .col-4-xlarge {
+					width: 33.33333%;
+				}
+
+				.row > .off-4-xlarge {
+					margin-left: 33.33333%;
+				}
+
+				.row > .col-5-xlarge {
+					width: 41.66667%;
+				}
+
+				.row > .off-5-xlarge {
+					margin-left: 41.66667%;
+				}
+
+				.row > .col-6-xlarge {
+					width: 50%;
+				}
+
+				.row > .off-6-xlarge {
+					margin-left: 50%;
+				}
+
+				.row > .col-7-xlarge {
+					width: 58.33333%;
+				}
+
+				.row > .off-7-xlarge {
+					margin-left: 58.33333%;
+				}
+
+				.row > .col-8-xlarge {
+					width: 66.66667%;
+				}
+
+				.row > .off-8-xlarge {
+					margin-left: 66.66667%;
+				}
+
+				.row > .col-9-xlarge {
+					width: 75%;
+				}
+
+				.row > .off-9-xlarge {
+					margin-left: 75%;
+				}
+
+				.row > .col-10-xlarge {
+					width: 83.33333%;
+				}
+
+				.row > .off-10-xlarge {
+					margin-left: 83.33333%;
+				}
+
+				.row > .col-11-xlarge {
+					width: 91.66667%;
+				}
+
+				.row > .off-11-xlarge {
+					margin-left: 91.66667%;
+				}
+
+				.row > .col-12-xlarge {
+					width: 100%;
+				}
+
+				.row > .off-12-xlarge {
+					margin-left: 100%;
+				}
+
+				.row.gtr-0 {
+					margin-top: 0;
+					margin-left: 0em;
+				}
+
+					.row.gtr-0 > * {
+						padding: 0 0 0 0em;
+					}
+
+					.row.gtr-0.gtr-uniform {
+						margin-top: 0em;
+					}
+
+						.row.gtr-0.gtr-uniform > * {
+							padding-top: 0em;
+						}
+
+				.row.gtr-25 {
+					margin-top: 0;
+					margin-left: -0.625em;
+				}
+
+					.row.gtr-25 > * {
+						padding: 0 0 0 0.625em;
+					}
+
+					.row.gtr-25.gtr-uniform {
+						margin-top: -0.625em;
+					}
+
+						.row.gtr-25.gtr-uniform > * {
+							padding-top: 0.625em;
+						}
+
+				.row.gtr-50 {
+					margin-top: 0;
+					margin-left: -1.25em;
+				}
+
+					.row.gtr-50 > * {
+						padding: 0 0 0 1.25em;
+					}
+
+					.row.gtr-50.gtr-uniform {
+						margin-top: -1.25em;
+					}
+
+						.row.gtr-50.gtr-uniform > * {
+							padding-top: 1.25em;
+						}
+
+				.row {
+					margin-top: 0;
+					margin-left: -2.5em;
+				}
+
+					.row > * {
+						padding: 0 0 0 2.5em;
+					}
+
+					.row.gtr-uniform {
+						margin-top: -2.5em;
+					}
+
+						.row.gtr-uniform > * {
+							padding-top: 2.5em;
+						}
+
+				.row.gtr-150 {
+					margin-top: 0;
+					margin-left: -3.75em;
+				}
+
+					.row.gtr-150 > * {
+						padding: 0 0 0 3.75em;
+					}
+
+					.row.gtr-150.gtr-uniform {
+						margin-top: -3.75em;
+					}
+
+						.row.gtr-150.gtr-uniform > * {
+							padding-top: 3.75em;
+						}
+
+				.row.gtr-200 {
+					margin-top: 0;
+					margin-left: -5em;
+				}
+
+					.row.gtr-200 > * {
+						padding: 0 0 0 5em;
+					}
+
+					.row.gtr-200.gtr-uniform {
+						margin-top: -5em;
+					}
+
+						.row.gtr-200.gtr-uniform > * {
+							padding-top: 5em;
+						}
+
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -1470,6 +1750,46 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 237vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+				background-size: cover;
+			}
+
+			.contenidoPhone{
+				margin-left: 11%;
+				background: none;
+				z-index: 55;
+				position: relative;
+				margin-right: 11%;
+				margin-top: 0%;
+			}
+
+			.phoneimage{
+				position: absolute !important;
+				min-inline-size: max-content;
+				max-height: 72vh !important;
+
+			}
+
+			.phoneimagencontainer{
+				background: unset !important;
+			}
+
+			.containerThree{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 200vh !important;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1713,15 +2033,55 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			.phonebackground{
-				background-image: url("images/phone2.png");
-				min-height: 249vh;
+		@media screen and (max-width: 960px){
+			.phonebackground {
+				background-image: url(images/phone2.png);
+				min-height: 235vh;
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+				background-size: cover;
+			}
+			.containerThree{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 215vh !important;
+			}
+		}
+		@media screen and (max-width: 890px){
+			.phonebackground {
+				background-image: url(images/phone2.png);
+				min-height: 240vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+				background-size: cover;
+			}
+			.containerThree{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 215vh !important;
+			}
+		}
+
+		@media screen and (max-width: 799px) {
+
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 229vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;				
 				width: 100%;
 				z-index: 100;
 				position: absolute;
@@ -1739,6 +2099,22 @@ input, select, textarea {
 				width: auto;
 				float: none;
 				height: auto!important;
+			}
+
+			.contenidoPhone {
+				margin-left: 25%;
+				background: none;
+				z-index: 55;
+				position: relative;
+				margin-right: 25%;
+				margin-top: 0%;
+			}
+
+			.spotlight {
+				background-attachment: scroll !important;
+				height: auto !important;
+				width: 100% !important;
+    			margin: auto;
 			}
 
 
@@ -1985,11 +2361,80 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 764px) {
 
 			.phonebackground{
 				background-image: url("images/phone2.png");
-				min-height: 230vh;
+				min-height: 236vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;				
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 206vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;				
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+			}
+
+		}
+
+		@media screen and (max-width: 690px) {
+
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 216vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;				
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+			}
+
+		}
+
+		@media screen and (max-width: 600px){
+			.phonebackground {
+				background-image: url(images/phone2.png);
+				min-height: 199vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+				background-size: cover;
+			}
+			.contenidoPhone {
+				margin-left: 18%;
+				background: none;
+				z-index: 55;
+				position: relative;
+				margin-right: 18%;
+				margin-top: 0%;
+			}
+		}
+
+
+		@media screen and (max-width: 485px) {
+
+			.phonebackground{
+				background-image: url("images/phone2.png");
+				min-height: 206vh;
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -2010,11 +2455,21 @@ input, select, textarea {
 			}
 
 			.phoneimage{
+				position: absolute !important;
+				min-inline-size: max-content;
+				max-height: 72vh !important;
 
 			}
 
-			.phonecontainer{
-				
+			.phoneimagencontainer{
+				background: unset !important;
+			}
+
+			.containerThree{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 200vh !important;
 			}
 
 			.row {
@@ -2259,6 +2714,37 @@ input, select, textarea {
 						}
 
 		}
+
+		@media screen and (max-width: 400px){
+			.phonebackground {
+				background-image: url(images/phone2.png);
+				min-height: 198vh;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				width: 100%;
+				z-index: 100;
+				position: absolute;
+				background-size: cover;
+			}
+			.contenidoPhone {
+				margin-left: 2%;
+				background: none;
+				z-index: 55;
+				position: relative;
+				margin-right: 2%;
+				margin-top: 0%;
+			}
+			.containerThree{
+				position: relative !important;
+				width: 50%;
+				float: right;
+				height: 150vh !important;
+			}
+		}
+
+		
 
 /* Section/Article */
 
@@ -3771,8 +4257,10 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight {
-				background-attachment: scroll;
-				height: auto;
+				background-attachment: scroll !important;
+				height: auto !important;
+				width: 50%;
+    			margin: auto;
 			}
 
 				.spotlight .image.main {
@@ -3788,7 +4276,7 @@ input, select, textarea {
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
 					left: auto !important;
-					padding: 4.5em 2.5em 2.5em 2.5em !important;
+					padding: 4.5em 2.5em 2.5em 2.5em;
 					position: relative;
 					right: auto !important;
 					text-align: center;
@@ -3978,7 +4466,6 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 				padding-top: 44px !important;
-				font-size: xx-small;
 			}
 			/*
 			#titleBar {
